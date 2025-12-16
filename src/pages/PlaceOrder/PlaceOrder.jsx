@@ -110,7 +110,21 @@ const PlaceOrder = () => {
            <button type='submit'>PROCEED TO PAYMENT</button>
         </div>
       </div>
+
+      <div style={{border:"1px dashed gray", padding:"10px", marginBottom:"10px"}}>
+    <h4>Stripe Test Card</h4>
+    <p>Card: 4000 0025 0000 3155
+</p>
+    <p>Expiry:Any future date</p>
+    <p>CVC: Any 3 digits</p>
+  </div>
+
     </form>
+
+    
+  
+
+
   )
 }
 
